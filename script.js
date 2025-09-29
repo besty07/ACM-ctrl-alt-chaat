@@ -86,7 +86,7 @@ function renderFoods(filter) {
             card.innerHTML = `
                 <div class="card-inner">
                     <div class="card-front">
-                        <img src="${item.img}" alt="${item.name}">
+                        <img src="images/${item.img}" alt="${item.name}">
                         <h3>${item.name}</h3>
                     </div>
                     <div class="card-back">
